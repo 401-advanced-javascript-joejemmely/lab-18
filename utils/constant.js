@@ -4,6 +4,8 @@ require('dotenv').config();
 
 /**
  * @module constant
+ * @property PORT
+ * @property SERVER_URL
  */
 module.exports = {
   PORT: process.env.PORT || '3000',

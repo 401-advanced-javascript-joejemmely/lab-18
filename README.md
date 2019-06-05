@@ -11,7 +11,39 @@
 
 ### Documentation
 
-Coming soon
+<a name="alterFile"></a>
+
+## alterFile(file)
+
+Async function to read, transform, and write
+
+**Kind**: global function
+
+| Param | Type            |
+| ----- | --------------- |
+| file  | <code>\*</code> |
+
+<a name="module_constant"></a>
+
+## constant
+
+**Properties**
+
+| Name       |
+| ---------- |
+| PORT       |
+| SERVER_URL |
+
+<a name="module_events"></a>
+
+## events
+
+**Properties**
+
+| Name  |
+| ----- |
+| SAVE  |
+| ERROR |
 
 ### Setup
 
