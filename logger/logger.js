@@ -7,6 +7,10 @@ const io = require('socket.io-client');
 
 const socket = io.connect(`${constants.SERVER_URL}:${constants.PORT}`);
 
+/**
+ * Listen for events emitted by the server
+ */
+
 socket.on('connect', () => {
   console.log(`Listening on ${socket.io.uri}`);
 });

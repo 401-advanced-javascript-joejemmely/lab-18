@@ -5,8 +5,15 @@ const events = require('../utils/events.js');
 
 const io = require('socket.io')(constants.PORT);
 
+/**
+ * Listen for connections
+ */
 io.on('connection', socket => {
   console.log('New connection:', socket.id);
+
+  /**
+   * Listen for events on each socket and broadcast them
+   */
 
   socket.on(events.SAVE, message => {
     socket.broadcast.emit(events.SAVE, message);

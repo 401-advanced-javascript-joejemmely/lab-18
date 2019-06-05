@@ -18,6 +18,10 @@ socket.on('connect', () => {
   alterFile(file);
 });
 
+/**
+ * Async function to read, transform, and write
+ * @param {*} file
+ */
 const alterFile = async file => {
   try {
     const buffer = await readFileAsync(file);
