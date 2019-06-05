@@ -4,7 +4,10 @@
   "description": "## TCP Server / Message Application",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose",
+    "server": "node server/server.js",
+    "logger": "node logger/logger.js",
+    "client": "node app/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/401-advanced-javascript-joejemmely/lab-18/issues"
   },
-  "homepage": "https://github.com/401-advanced-javascript-joejemmely/lab-18#readme"
+  "homepage": "https://github.com/401-advanced-javascript-joejemmely/lab-18#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "socket.io": "^2.2.0"
+  }
 }

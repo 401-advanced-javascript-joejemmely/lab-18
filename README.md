@@ -1,13 +1,13 @@
-# LAB - 17
+# LAB - 18
 
-## TCP Server / Message Application
+## Socket.io
 
 ### Author: Joé Jemmely
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-joejemmely/lab-17/pull/1)
-- [travis](https://travis-ci.com/401-advanced-javascript-joejemmely/lab-17)
+- [submission PR](https://github.com/401-advanced-javascript-joejemmely/lab-18/pull/1)
+- [travis](https://travis-ci.com/401-advanced-javascript-joejemmely/lab-18)
 
 ### Documentation
 
