@@ -17,8 +17,8 @@ Coming soon
 
 #### `.env` requirements
 
-- `PORT` - Port Number
-- `CLIENT_NAME` - Client name
+- `PORT` - (_3000_)
+- `SERVER_URL` - (_http://localhost_)
 
 #### Running the app
 
