@@ -63,3 +63,7 @@ Async function to read, transform, and write
 #### Tests
 
 - How do you run tests? `npm test`
+
+### UML
+
+![uml](./uml.jpg)
